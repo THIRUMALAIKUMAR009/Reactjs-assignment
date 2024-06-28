@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Prism as SyntaxHighlighter } from 'prism-react-renderer';
-import theme from 'prism-react-renderer/themes/vsDark'; // Choose your preferred theme
+import theme from 'prism-react-renderer/themes/vsDark'; 
 
 const CodeEditor = () => {
   const [code, setCode] = useState('');
